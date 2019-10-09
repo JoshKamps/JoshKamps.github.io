@@ -41,11 +41,11 @@ p {
 
 a {
     color: #042eb7;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav a {
     color: #b70909;
-    font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
 }
 
