@@ -8,6 +8,10 @@ h1 {
     font-weight: 100;
 }
 
+ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
     display: flex;
     padding: 10px
@@ -49,15 +53,24 @@ nav a {
     font-size: 12pt;
 }
 
-.column ul {
+a.proj-link {
+    font-size: 10pt;
+}
+
+#blogs {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+#projects {
+    list-style-type: initial;
+    margin: 0;
+    padding-left: 20px;
+}
+
 body {
     max-width: 920px; 
-
     margin: auto;
 }
 
@@ -76,9 +89,12 @@ div.column {
 }
 
 .publication {
-    font-size: 12px;
+    font-size: 10pt;
 }
 
+#sub-paragraph {
+    font-size: 10pt;
+}
 
 @media screen and (max-width: 600px) {
     .row {
