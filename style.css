@@ -69,6 +69,12 @@ a.proj-link {
     padding-left: 20px;
 }
 
+#teaching {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 20px;
+}
+
 body {
     max-width: 920px; 
     margin: auto;
@@ -94,6 +100,10 @@ div.column {
 
 #sub-paragraph {
     font-size: 10pt;
+}
+
+#teaching-header {
+    display: inline;    
 }
 
 @media screen and (max-width: 600px) {
